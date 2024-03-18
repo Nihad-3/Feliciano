@@ -1,0 +1,53 @@
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.7);
+}
+
+@mixin parallax{
+    background-position:top  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    background-attachment: fixed;
+}
+
+@mixin fontDifferent{
+    color: #C8A97E;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+
+@mixin hiddenText{
+    color: red;
+    visibility: hidden;
+    font-weight: bold;
+}
+
+@mixin flexWrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin imgBLock{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+

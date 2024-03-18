@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+        publicKey: "US7IThgK5bahQ10wj",
+        }); 
+    })();
+</script>
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url(/assets/img/headerimg.webp);"></div>
+              <div class="swiper-slide" style="background-image: url(/assets/img/headerimg2.webp);"></div>
+              <div class="swiper-slide" style="background-image: url(/assets/img/headerimg3.webp);"></div>
+            </div>
+        </div>
+        <div class="header-block">
+            <div class="contanier">
+                <div class="header-contact">
+                    <p class="contact-info">
+                        <i class="fa-solid fa-phone"></i>+ 1235 2355 98
+                    </p>
+                    <p class="contact-info">
+                        <i class="fa-solid fa-paper-plane"></i>youremail@email.com
+                    </p>
+                    <p class="contact-info">Open hours: Monday - Sunday 8:00AM - 9:00PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-menu">
+            <div class="contanier">
+                <div class="row-header">
+                    <a href="" class="page-icon">Feliciano</a>
+                    <nav class="nav-bar">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="/index.html" class="nav-link active">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/menu.html" class="nav-link">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/stories.html" class="nav-link">Stories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="different-link">Book a table</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="hidden-burger-menu">
+                        <i class="fa-solid fa-bars" id="burger-icon"></i>
+                        <span class="menu-text">Menu</span>
+                    </div>
+                    <div class="hidden-burger-block">
+                        <li class="burger-item"><a href="/index.html" class="burger-link burger-active-hidden">Home</a></li>
+                        <li class="burger-item"><a href="/about.html" class="burger-link">About</a></li>
+                        <li class="burger-item"><a href="/menu.html" class="burger-link">Menu</a></li>
+                        <li class="burger-item"><a href="/stories.html" class="burger-link">Stories</a></li>
+                        <li class="burger-item"><a href="" class="burger-link">Contact</a></li>
+                        <li class="burger-item"><a href="" class="burger-link different-burger different-burger-hidden">Book a table</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contanier">
+                <div class="row-header">
+                    <a href="" class="page-icon">Feliciano</a>
+                    <nav class="nav-bar">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="/index.html" class="nav-link active">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/menu.html" class="nav-link">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/stories.html" class="nav-link">Stories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="different-link">Book a table</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="burger-menu">
+                        <i class="fa-solid fa-bars" id="burger-icon"></i>
+                        <span class="menu-text">Menu</span>
+                    </div>
+                    <div class="burger-block">
+                        <li class="burger-item"><a href="/index.html" class="burger-link burger-active">Home</a></li>
+                        <li class="burger-item"><a href="/about.html" class="burger-link">About</a></li>
+                        <li class="burger-item"><a href="/menu.html" class="burger-link">Menu</a></li>
+                        <li class="burger-item"><a href="/stories.html" class="burger-link">Stories</a></li>
+                        <li class="burger-item"><a href="" class="burger-link">Contact</a></li>
+                        <li class="burger-item"><a href="" class="burger-link different-burger">Book a table</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resturant-name-block">
+            <div class="name-block">
+                <p class="name-resturant-text">Feliciano</p>
+                <h2 class="best-head">Best Restaurant</h2>
+            </div>
+        </div>
+        <div class="special-food">
+            <div class="contanier">
+                <div class="special-menu">
+                    <div class="food-element">
+                        <div class="food-info">
+                            <div class="food-img">
+                                <img src="/assets/img/headFood1.webp" alt="">
+                            </div>
+                            <h3 class="food-name">Grilled Beef with potatoes</h3>
+                            <p class="food-element">Meat, Potatoes, Rice, Tomatoe</p>
+                        </div>
+                    </div>
+                    <div class="food-element">
+                        <div class="food-info">
+                            <div class="food-img">
+                                <img src="/assets/img/headFood2.webp" alt="">
+                            </div>
+                            <h3 class="food-name">Grilled Beef with potatoes</h3>
+                            <p class="food-element">Meat, Potatoes, Rice, Tomatoe</p>
+                        </div>
+                    </div>
+                    <div class="food-element">
+                        <div class="food-info">
+                            <div class="food-img">
+                                <img src="/assets/img/headFood3.webp" alt="">
+                            </div>
+                            <h3 class="food-name">Grilled Beef with potatoes</h3>
+                            <p class="food-element">Meat, Potatoes, Rice, Tomatoe</p>
+                        </div>
+                    </div>
+                    <div class="food-element">
+                        <div class="food-info">
+                            <div class="food-img">
+                                <img src="/assets/img/headFood4.webp" alt="">
+                            </div>
+                            <h3 class="food-name">Grilled Beef with potatoes</h3>
+                            <p class="food-element">Meat, Potatoes, Rice, Tomatoe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about-section">
+            <div class="contanier">
+                <div class="about-block">
+                    <!-- data-aos="fade-left"  -->
+                    <div class="gallery-block" data-aos="fade-up">
+                        <div class="img-block">
+                            <div class="chef-img ">
+                                <img src="/assets/img/abot1.webp" alt="" class="img-different">
+                            </div>
+                        </div>
+                        <div class="img-block">
+                            <div class="chef-img">
+                                <img src="/assets/img/abot2.webp" alt="">
+                            </div>
+                        </div>                            
+                    </div>
+                    <div class="about-info-block" data-aos="fade-up">
+                        <div class="about-head">
+                            <span class="different-font-text">about</span>
+                            <h2 class="about-head-tag">Feliciano Restaurant</h2>
+                        </div>
+                        <p class="about-info-par">
+                            A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                        </p>
+                        <p class="about-date-par">
+                            Mon - Fri <span class="time-text"> 8 AM - 11 PM</span>
+                        </p>
+                        <a href="#" class="about-phone">+ 1-978-123-4567</a>
+                    </div>
+                    <div class="counter-section">
+                        <div class="parent-counter">
+                            <div class="counter-block">
+                                <p id="counter-year" class="counter"></p>
+                                <p class="counter-info">YEARS OF EXPERIENCED</p>
+                            </div>
+                            <div class="counter-block">
+                                <p id="counter-menus" class="counter"></p>
+                                <p class="counter-info">MENUS/DISH</p>
+                            </div>
+                            <div class="counter-block">
+                                <p id="counter-staff" class="counter"></p>
+                                <p class="counter-info">STAFFS</p>
+                            </div>
+                            <div class="counter-block">
+                                <p id="counter-info" class="counter"></p>
+                                <p class="counter-info">HAPPY CUSTOMERS</p>
+                            </div>
+                        </div>
+                        <div class="counter-block-text">
+                            <p class="counter-info2">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section" data-aos="fade-up" data-aos-duration="2000">
+            <div class="contanier">
+                <div class="service-block">
+                    <div class="service-head">
+                        <p class="service-head-different-font">Services</p>
+                        <h3 class="service-header">Catering Services</h3>
+                    </div>
+                    <div class="serivce-gallery">
+                        <div class="service-cart-parent">
+                            <div class="service-cart">
+                                <i class="fa-solid fa-cake-candles"></i>
+                                <h3 class="birthday-head">Birthday Party</h3>
+                                <p class="cart-par">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            </div>
+                        </div>
+                        <div class="service-cart-parent">
+                            <div class="service-cart">
+                                <i class="fa-solid fa-handshake"></i>
+                                <h3 class="birthday-head">Business Meetings</h3>
+                                <p class="cart-par">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            </div>
+                        </div>
+                        <div class="service-cart-parent">
+                            <div class="service-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3 class="birthday-head">Wedding Party</h3>
+                                <p class="cart-par">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="special-section" data-aos="fade-up">
+            <div class="contanier">
+                <div class="special-block">
+                    <div class="special-header">
+                        <p class="service-head-different-font">Specialties</p>
+                        <h3 class="service-header">Our Menu</h3>
+                    </div>
+                    <div class="special-menu">
+                        <div class="food-element-cart">
+                            <div class="element-img">
+                                <img src="/assets/img/headFood1.webp" alt="">
+                            </div>
+                            <div class="element-info">
+                                <div class="grilled-beef-block">
+                                    <h3 class="grilled-head">Grilled Beef with potatoes</h3>
+                                    <p class="food-price">$29</p>
+                                </div>
+                                <p class="element-food">Meat, Potatoes, Rice, Tomatoe</p>
+                                <a href="" class="order-link">Order now</a>
+                            </div>
+                        </div>
+                        <div class="food-element-cart">
+                            <div class="element-img">
+                                <img src="/assets/img/headFood2.webp" alt="">
+                            </div>
+                            <div class="element-info">
+                                <div class="grilled-beef-block">
+                                    <h3 class="grilled-head">Grilled Beef with potatoes</h3>
+                                    <p class="food-price">$29</p>
+                                </div>
+                                <p class="element-food">Meat, Potatoes, Rice, Tomatoe</p>
+                                <a href="" class="order-link">Order now</a>
+                            </div>
+                        </div>
+                        <div class="food-element-cart  food-element-reverse">
+                            <div class="element-img">
+                                <img src="/assets/img/headFood3.webp" alt="">
+                            </div>
+                            <div class="element-info">
+                                <div class="grilled-beef-block">
+                                    <h3 class="grilled-head">Grilled Beef with potatoes</h3>
+                                    <p class="food-price">$29</p>
+                                </div>
+                                <p class="element-food">Meat, Potatoes, Rice, Tomatoe</p>
+                                <a href="" class="order-link">Order now</a>
+                            </div>
+                        </div>
+                        <div class="food-element-cart  food-element-reverse">
+                            <div class="element-img">
+                                <img src="/assets/img/headFood4.webp" alt="">
+                            </div>
+                            <div class="element-info">
+                                <div class="grilled-beef-block">
+                                    <h3 class="grilled-head">Grilled Beef with potatoes</h3>
+                                    <p class="food-price">$29</p>
+                                </div>
+                                <p class="element-food">Meat, Potatoes, Rice, Tomatoe</p>
+                                <a href="" class="order-link">Order now</a>
+                            </div>
+                        </div>
+                        <div class="food-element-cart">
+                            <div class="element-img">
+                                <img src="/assets/img/headFood2.webp" alt="">
+                            </div>
+                            <div class="element-info">
+                                <div class="grilled-beef-block">
+                                    <h3 class="grilled-head">Grilled Beef with potatoes</h3>
+                                    <p class="food-price">$29</p>
+                                </div>
+                                <p class="element-food">Meat, Potatoes, Rice, Tomatoe</p>
+                                <a href="" class="order-link">Order now</a>
+                            </div>
+                        </div>
+                        <div class="food-element-cart">
+                            <div class="element-img">
+                                <img src="/assets/img/headFood3.webp" alt="">
+                            </div>
+                            <div class="element-info">
+                                <div class="grilled-beef-block">
+                                    <h3 class="grilled-head">Grilled Beef with potatoes</h3>
+                                    <p class="food-price">$29</p>
+                                </div>
+                                <p class="element-food">Meat, Potatoes, Rice, Tomatoe</p>
+                                <a href="" class="order-link">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chef-section">
+            <div class="contanier">
+                <div class="chef-block">
+                    <div class="chef-header">
+                        <p class="service-head-different-font">Chef</p>
+                        <h3 class="service-header">Our Master Chef</h3>
+                    </div>
+                    <div class="chef-gallery">
+                        <div class="chef-cart-parent">
+                            <div class="chef-cart">
+                                <div class="cart-img">
+                                    <img src="/assets/img/chef1.webp" alt="">
+                                </div>
+                                <h3 class="chef-name">John Smooth</h3>
+                                <p class="img-par">Restaurant Owner</p>
+                                <div class="icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chef-cart-parent">
+                            <div class="chef-cart">
+                                <div class="cart-img">
+                                    <img src="/assets/img/chef-2.jpg.webp" alt="">
+                                </div>
+                                <h3 class="chef-name">Rebeca Welson</h3>
+                                <p class="img-par">Head Chef</p>
+                                <div class="icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chef-cart-parent">
+                            <div class="chef-cart">
+                                <div class="cart-img">
+                                    <img src="/assets/img/chef-3.jpg.webp" alt="">
+                                </div>
+                                <h3 class="chef-name">Kharl Branyt</h3>
+                                <p class="img-par">Chef</p>
+                                <div class="icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chef-cart-parent">
+                            <div class="chef-cart">
+                                <div class="cart-img">
+                                    <img src="/assets/img/chef-4.jpg.webp" alt="">
+                                </div>
+                                <h3 class="chef-name">Luke Simon</h3>
+                                <p class="img-par">Chef</p>
+                                <div class="icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reservation-section">
+            <div class="contanier">
+                <div class="reservation-block">
+                    <div class="reservation-head">
+                        <p class="service-head-different-font">Book a tablef</p>
+                        <h3 class="service-header">Make Reservation</h3>                 
+                    </div>
+                    <form data-aos="fade-up" data-aos-duration="3000">
+                        <div class="form-element">
+                            <div class="name-block">
+                                <label for="nameinput">Name</label>
+                                <input type="text" placeholder="Your Name" id="nameinput">
+                                <p class="name-text">Adınızı daxil edin</p>
+                            </div>
+                        </div>
+                        <div class="form-element">
+                            <div class="name-block">
+                                <label for="go-email">Email</label>
+                                <input type="email" placeholder="Your Email" id="go-email">
+                                <p class="email-text">Emailinizi daxil edin</p>
+                            </div>
+                        </div>
+                        <div class="form-element">
+                            <div class="name-block">
+                                <label for="go-phone">Phone</label>
+                                <input type="tel" placeholder="Phone" id="go-phone">
+                                <p class="phone-text">Telefonuzu daxil edin</p>
+                            </div>
+                        </div>
+                        <div class="form-element">
+                            <div class="name-block">
+                                <label for="go-date">Phone</label>
+                                <input type="date" placeholder="Date" id="go-date">
+                                <p class="date-text">Tarixi daxil edin</p>
+                            </div>
+                        </div>
+                        <div class="form-element">
+                            <div class="name-block">
+                                <label for="time">Time</label>
+                                <input name="" id="time-select"></input>
+                                <ul class="select-list">
+                                    <li>12:00am</li>
+                                    <li>12:30am</li>
+                                    <li>1:00am</li>
+                                    <li>1:30am</li>
+                                    <li>2:00am</li>
+                                    <li>2:30am</li>
+                                    <li>3:00am</li>
+                                    <li>3:30am</li>
+                                    <li>4:00am</li>
+                                    <li>4:30am</li>
+                                    <li>5:00am</li>
+                                    <li>5:30am</li>
+                                    <li>6:00am</li>
+                                    <li>6:30am</li>
+                                    <li>7:00am</li>
+                                    <li>7:30am</li>
+                                    <li>8:00am</li>
+                                    <li>8:30am</li>
+                                    <li>9:00am</li>
+                                </ul>
+                                <p class="time-text-select"> Vaxtı daxil edin</p>
+                            </div>
+                        </div>
+                        <div class="form-element">
+                            <div class="name-block">
+                                <label for="human">Person</label>
+                                <input type="text" name="" id="human">
+                                <ul class="count-select-list">
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                </ul>
+                                <p class="human-text"> Adam sayını daxil edin</p>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="click" onclick="SendMail()">Make a Reservation</button>
+                </div>
+            </div>
+        </section>
+        <section class="happy-customer-section">
+            <div class="contanier">
+                <div class="happy-customer-block">
+                    <div class="happy-customer-header">
+                        <p class="service-head-different-font">Testimony</p>
+                        <h3 class="service-header">Happy Customer</h3>     
+                    </div>
+                    <div class="swiper customer-swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="swiper-img">
+                                <i class="fa-solid fa-quote-right"></i>
+                                <img src="/assets/img/customer1.webp" alt="">
+                            </div>
+                            <p class="swiper-par">
+                                Far far away, behind the word mountains,
+                                far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                            <div class="block-swiper">
+                                <h3 class="customer-name">Mark Stevenson</h3>
+                                <p class="work-name">Customer</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="swiper-img">
+                                <i class="fa-solid fa-quote-right"></i>
+                                <img src="/assets/img/customer2.webp" alt="">
+                            </div>
+                            <p class="swiper-par">
+                                Far far away, behind the word mountains,
+                                far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                            <div class="block-swiper">
+                                <h3 class="customer-name">Art Leonard</h3>
+                                <p class="work-name">Customer</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="swiper-img">
+                                <i class="fa-solid fa-quote-right"></i>
+                                <img src="/assets/img/customer3.webp" alt="">
+                            </div>
+                            <p class="swiper-par">
+                                Far far away, behind the word mountains,
+                                far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                            <div class="block-swiper">
+                                <h3 class="customer-name">Rose Henderson</h3>
+                                <p class="work-name">Customer</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="swiper-img">
+                                <i class="fa-solid fa-quote-right"></i>
+                                <img src="/assets/img/customer4.webp" alt="">
+                            </div>
+                            <p class="swiper-par">
+                                Far far away, behind the word mountains,
+                                far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                            <div class="block-swiper">
+                                <h3 class="customer-name">Jason McClean</h3>
+                                <p class="work-name">Customer</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="swiper-img">
+                                <i class="fa-solid fa-quote-right"></i>
+                                <img src="/assets/img/customer1.webp" alt="">
+                            </div>
+                            <p class="swiper-par">
+                                Far far away, behind the word mountains,
+                                far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                            <div class="block-swiper">
+                                <h3 class="customer-name">Ian Boner</h3>
+                                <p class="work-name">Customer</p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog-section" data-aos="fade-down"  data-aos-duration="1000">
+            <div class="contanier">
+                <div class="blog-block">
+                    <div class="blog-header">
+                        <p class="service-head-different-font">Blog</p>
+                        <h3 class="service-header">Recent Posts</h3>   
+                    </div>
+                    <div class="blog-gallery">
+                        <div class="blog-cart-parent">
+                            <div class="blog-cart">
+                                <a href="#" class="link-img">
+                                    <img src="/assets/img/obyekt1.webp" alt="">
+                                </a>
+                                <div class="cart-info">
+                                    <p class="date-par">Sept. 06, 2019 Admin</p>
+                                    <h3 class="food-taste">Taste the delicious foods in Asia</h3>
+                                    <div class="read-block">
+                                        <a href="" class="read-link">Read more</a>
+                                        <div class="number-block">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="read-text">3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-cart-parent">
+                            <div class="blog-cart">
+                                <a href="#" class="link-img">
+                                    <img src="/assets/img/obyekt2.webp" alt="">
+                                </a>
+                                <div class="cart-info">
+                                    <p class="date-par">Sept. 06, 2019 Admin</p>
+                                    <h3 class="food-taste">Taste the delicious foods in Asia</h3>
+                                    <div class="read-block">
+                                        <a href="" class="read-link">Read more</a>
+                                        <div class="number-block">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="read-text">3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-cart-parent">
+                            <div class="blog-cart">
+                                <a href="#" class="link-img">
+                                    <img src="/assets/img/obyekt3.webp" alt="">
+                                </a>
+                                <div class="cart-info">
+                                    <p class="date-par">Sept. 06, 2019 Admin</p>
+                                    <h3 class="food-taste">Taste the delicious foods in Asia</h3>
+                                    <div class="read-block">
+                                        <a href="" class="read-link">Read more</a>
+                                        <div class="number-block">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span class="read-text">3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contanier">
+            <div class="footer-block">
+                <div class="footer-parent-element">
+                    <div class="footer-element">
+                        <h3 class="head-text">Feliciano</h3>
+                        <p class="foot-info">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="foot-icon-block" data-aos="fade-up" data-aos-duration="2000">
+                            <a href="" class="foot-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="" class="foot-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="foot-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-parent-element">
+                    <div class="footer-element">
+                        <h3 class="head-text">Open Hours</h3>
+                        <ul class="foot-list">
+                            <li class="foot-list-element">
+                                <span class="list-day">Monday</span>
+                                <span class="list-date">9:00 - 24:00</span>
+                            </li>
+                            <li class="foot-list-element">
+                                <span class="list-day">Tuesday</span>
+                                <span class="list-date">9:00 - 24:00</span>
+                            </li>
+                            <li class="foot-list-element">
+                                <span class="list-day">Wednesday</span>
+                                <span class="list-date">9:00 - 24:00</span>
+                            </li>
+                            <li class="foot-list-element">
+                                <span class="list-day">Thursday</span>
+                                <span class="list-date">9:00 - 24:00</span>
+                            </li>
+                            <li class="foot-list-element">
+                                <span class="list-day">Friday</span>
+                                <span class="list-date">9:00 - 02:00</span>
+                            </li>
+                            <li class="foot-list-element">
+                                <span class="list-day">Saturday</span>
+                                <span class="list-date">9:00 - 02:00</span>
+                            </li>
+                            <li class="foot-list-element">
+                                <span class="list-day">Sunday</span>
+                                <span class="list-date">9:00 - 02:00</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-parent-element">
+                    <div class="footer-element">
+                        <h3 class="head-text">Open Hours</h3>
+                        <div class="foot-gallery">
+                            <a href="" class="foot-img foot-change-img">
+                                <img src="/assets/img/footimg1.webp" alt="">
+                            </a>
+                            <a href="" class="foot-img foot-change-img">
+                                <img src="/assets/img/footimg2.webp" alt="">
+                            </a>
+                            <a href="" class="foot-img foot-change-img">
+                                <img src="/assets/img/footimg3.webp" alt="">
+                            </a>
+                            <a href="" class="foot-img ">
+                                <img src="/assets/img/footimg4.webp" alt="">
+                            </a>
+                            <a href="" class="foot-img ">
+                                <img src="/assets/img/footimg5.webp" alt="">
+                            </a>
+                            <a href="" class="foot-img ">
+                                <img src="/assets/img/headFood4.webp" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-parent-element">
+                    <div class="footer-element">
+                        <h3 class="head-text">Newsletter</h3>
+                        <p class="foot-info">Far far away, behind the word mountains, far from the countries.</p>
+                        <form >
+                            <input type="text" name="" id="email-footer" placeholder="Enter email address">
+                            <!-- <input type="submit" name="" id="submit" value="Subscribe"> -->
+                        </form>
+                        <button id="submit">Scribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/82dbf655bc.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Email -->
+
+</body>
+</html>
